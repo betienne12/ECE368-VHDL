@@ -1,0 +1,4 @@
+vhdl work "\\vnx-cifs\coefs\eng\shared\gogunwumi\368\UMDRISC_P1-master1\UMDRISC_P1-master\UMDRISC\ipcore_dir\Data_Mem.vhd"
+vhdl work "\\vnx-cifs\coefs\eng\shared\gogunwumi\368\UMDRISC_P1-master1\UMDRISC_P1-master\reg.vhd"
+vhdl work "\\vnx-cifs\coefs\eng\shared\gogunwumi\368\UMDRISC_P1-master1\UMDRISC_P1-master\mux_2to1.vhd"
+vhdl work "\\vnx-cifs\coefs\eng\shared\gogunwumi\368\UMDRISC_P1-master1\UMDRISC_P1-master\writeback\WriteBack.vhd"

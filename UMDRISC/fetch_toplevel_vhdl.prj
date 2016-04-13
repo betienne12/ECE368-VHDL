@@ -1,0 +1,6 @@
+vhdl work "\\vnx-cifs\coefs\eng\shared\gogunwumi\368\UMDRISC_P1-master1\UMDRISC_P1-master\Stack\stack_RAM.vhd"
+vhdl work "\\vnx-cifs\coefs\eng\shared\gogunwumi\368\UMDRISC_P1-master1\UMDRISC_P1-master\ROM\ROM.vhd"
+vhdl work "\\vnx-cifs\coefs\eng\shared\gogunwumi\368\UMDRISC_P1-master1\UMDRISC_P1-master\reg.vhd"
+vhdl work "\\vnx-cifs\coefs\eng\shared\gogunwumi\368\UMDRISC_P1-master1\UMDRISC_P1-master\Fetch\ProgramCounter.vhd"
+vhdl work "\\vnx-cifs\coefs\eng\shared\gogunwumi\368\UMDRISC_P1-master1\UMDRISC_P1-master\Fetch\PCstack.vhd"
+vhdl work "\\vnx-cifs\coefs\eng\shared\gogunwumi\368\UMDRISC_P1-master1\UMDRISC_P1-master\Fetch\fetch_toplevel.vhd"

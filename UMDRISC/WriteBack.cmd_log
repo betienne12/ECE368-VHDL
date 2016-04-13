@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.xst" -ofn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.syr" 
+xst -intstyle ise -ifn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.xst" -ofn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.syr" 
+xst -intstyle ise -ifn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.xst" -ofn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.syr" 
+xst -intstyle ise -ifn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.xst" -ofn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.syr" 
+xst -intstyle ise -ifn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.xst" -ofn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.syr" 
+xst -intstyle ise -ifn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.xst" -ofn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ROM -sd ../Stack -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 WriteBack.ngc WriteBack.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o WriteBack_map.ncd WriteBack.ngd WriteBack.pcf 
+par -w -intstyle ise -ol high -t 1 WriteBack_map.ncd WriteBack.ncd WriteBack.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml WriteBack.twx WriteBack.ncd -o WriteBack.twr WriteBack.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ../ROM -sd ../Stack -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 WriteBack.ngc WriteBack.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o WriteBack_map.ncd WriteBack.ngd WriteBack.pcf 
+par -w -intstyle ise -ol high -t 1 WriteBack_map.ncd WriteBack.ncd WriteBack.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml WriteBack.twx WriteBack.ncd -o WriteBack.twr WriteBack.pcf 
+xst -intstyle ise -ifn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.xst" -ofn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.syr" 
+xst -intstyle ise -ifn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.xst" -ofn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/WriteBack.syr" 

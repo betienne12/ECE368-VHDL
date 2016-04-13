@@ -1,0 +1,5 @@
+set -tmpdir "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/xst/projnav.tmp"
+set -xsthdpdir "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/xst"
+elaborate
+-ifn TopLevel.prj
+-ifmt mixed

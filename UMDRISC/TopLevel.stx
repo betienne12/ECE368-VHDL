@@ -1,0 +1,56 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/ipcore_dir/Data_Mem.vhd" in Library work.
+Architecture data_mem_a of Entity data_mem is up to date.
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/reg.vhd" in Library work.
+Architecture behavioral of Entity reg is up to date.
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/mux_2to1.vhd" in Library work.
+Architecture behavioral of Entity mux_2to1 is up to date.
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/ALU/alu_arithmetic_unit.vhd" in Library work.
+Architecture combinational of Entity arith_unit is up to date.
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/ALU/alu_logic_unit.vhd" in Library work.
+Architecture combinational of Entity logic_unit is up to date.
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/ALU/alu_shift_unit.vhd" in Library work.
+Architecture combinational of Entity alu_shift_unit is up to date.
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/ALU/load_store_unit.vhd" in Library work.
+Architecture behavioral of Entity load_store_unit is up to date.
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/ALU/alu_mux.vhd" in Library work.
+Architecture combinational of Entity alu_mux is up to date.
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/Operand_Access/RegRAM.vhd" in Library work.
+Architecture behavioral of Entity regram is up to date.
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/Decode/Decoder.vhd" in Library work.
+Architecture behavioral of Entity decoder is up to date.
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/Fetch/ProgramCounter.vhd" in Library work.
+Architecture structural of Entity programcounter is up to date.
+Compiling vhdl file "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/Fetch/PCstack.vhd" in Library work.
+ERROR:HDLParsers:709 - "//vnx-cifs/coefs/eng/shared/gogunwumi/368/UMDRISC_P1-master1/UMDRISC_P1-master/Fetch/PCstack.vhd" Line 61. stack_RAM is not an entity name
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.31 secs
+ 
+--> 
+
+Total memory usage is 215704 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

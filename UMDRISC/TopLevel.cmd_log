@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/TopLevel.xst" -ofn "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/TopLevel.syr" 

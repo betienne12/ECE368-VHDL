@@ -1,0 +1,4 @@
+work	"../mux_2to1.vhd"
+work	"../reg.vhd"
+work	"../writeback/WriteBack.vhd"
+work	"ipcore_dir/Data_Mem.vhd"

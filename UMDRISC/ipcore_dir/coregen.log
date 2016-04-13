@@ -1,0 +1,66 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Resolving generics for 'externalMem'...
+WARNING:sim - A core named 'externalMem' already exists in the project. Output
+   products for this core may be overwritten.
+Applying external generics to 'externalMem'...
+Delivering associated files for 'externalMem'...
+Delivering EJava files for 'externalMem'...
+Generating implementation netlist for 'externalMem'...
+INFO:sim - Pre-processing HDL files for 'externalMem'...
+Running synthesis for 'externalMem'
+Running ngcbuild...
+Writing VHO instantiation template for 'externalMem'...
+Writing VHDL behavioral simulation model for 'externalMem'...
+WARNING:sim - Overwriting existing file
+   Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/ipcore_dir/tmp/_cg/extern
+   alMem/doc/blk_mem_gen_v7_3_vinfo.html with file from view
+   xilinx_documentation
+Delivered 1 file into directory
+Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/ipcore_dir/tmp/_cg/externalM
+em
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'externalMem'...
+Generating metadata file...
+Regenerating ISE project file for 'externalMem'...
+Generating ISE project...
+XCO file found: externalMem.xco
+XMDF file found: externalMem_xmdf.tcl
+Adding
+Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/ipcore_dir/tmp/_cg/externalM
+em.asy -view all -origin_type imported
+Adding
+Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/ipcore_dir/tmp/_cg/externalM
+em.ngc -view all -origin_type created
+Checking file
+"Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/ipcore_dir/tmp/_cg/external
+Mem.ngc" for project device match ...
+File
+"Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/ipcore_dir/tmp/_cg/external
+Mem.ngc" device information matches project device.
+Adding
+Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/ipcore_dir/tmp/_cg/externalM
+em.sym -view all -origin_type imported
+Adding
+Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/ipcore_dir/tmp/_cg/externalM
+em.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/ipcore_dir/tmp/_cg/exter
+   nalMem.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+Z:/368/UMDRISC_P1-master1/UMDRISC_P1-master/UMDRISC/ipcore_dir/tmp/_cg/externalM
+em.vho -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/externalMem"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'externalMem'.
